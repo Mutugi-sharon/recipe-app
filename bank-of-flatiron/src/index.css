@@ -1,0 +1,135 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.ui.segment {
+  margin-bottom: 20px;
+}
+
+.ui.raised.segment {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.ui.segment.violet.inverted {
+  background-color: #6c5ce7;
+  color: #fff;
+}
+
+.ui.segment.violet.inverted h2 {
+  margin-top: 0;
+}
+
+/* Search Styles */
+
+.ui.large.fluid.icon.input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ui.large.fluid.icon.input input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.ui.large.fluid.icon.input i.circular.search.link.icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+}
+
+/* Add Transaction Form Styles */
+
+.ui.form {
+  margin-bottom: 20px;
+}
+
+.ui.form .inline.fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ui.form .inline.fields input[type="date"],
+.ui.form .inline.fields input[type="text"],
+.ui.form .inline.fields input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ui.form .inline.fields input[type="date"] {
+  width: 150px;
+}
+
+.ui.form .inline.fields input[type="number"] {
+  width: 100px;
+}
+
+.ui.button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ui.button:hover {
+  background-color: #3e8e41;
+}
+
+/* Transactions List Styles */
+
+.ui.celled.striped.padded.table {
+  margin-bottom: 20px;
+}
+
+.ui.celled.striped.padded.table thead th {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ui.celled.striped.padded.table thead th:hover {
+  background-color: #e0e0e0;
+}
+
+.ui.celled.striped.padded.table tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.ui.celled.striped.padded.table tbody tr td {
+  padding: 10px;
+  text-align: left;
+}
+
+.ui.celled.striped.padded.table tbody tr td:last-child {
+  text-align: right;
+}
+
+.ui.button.delete {
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ui.button.delete:hover {
+  background-color: #ff4d7f;
+}
